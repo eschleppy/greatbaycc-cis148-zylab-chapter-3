@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class UsingMathMethods {
+public class LabProgram {
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
-        double x;
-        double y;
-        double z;
-        /* Type your code here. */
+        Scanner input = new Scanner(System.in);
+
+        String txt = input.nextLine();
+        System.out.println("Postfix: " + txt.substring(txt.length() - 5));
     }
 }

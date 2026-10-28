@@ -5,9 +5,13 @@ public class LabProgram {
       int seconds;
       int minutes;
       int hours;
-      
-      /* Type your code here. */
-      
-      
+
+      Scanner input = new Scanner(System.in);
+      seconds = input.nextInt();
+      minutes = input.nextInt();
+      hours = input.nextInt();
+      System.out.println(((hours * 60 + minutes) * 60 + seconds) + " seconds");
+
+
    }
 }
